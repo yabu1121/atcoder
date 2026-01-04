@@ -5,15 +5,14 @@ void A(){
   int x,y,z;
   cin >> x >> y >> z;
   bool flag = false;
-  while(x < 100 && y < 100){
-    if(x == y * z) {
+
+  for(int i = 0; i < 100; i++){
+    if(x + i > 100 || y + i > 100)break;
+    if((x + i) == (y + i) * z){
       flag = true;
       break;
-    };
-    x++;
-    y++;
+    }
   }
-
   if(flag)cout << "Yes" << endl;
   else cout << "No" << endl;
 }
