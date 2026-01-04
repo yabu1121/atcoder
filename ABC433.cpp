@@ -6,8 +6,7 @@ void A(){
   cin >> x >> y >> z;
   bool flag = false;
 
-  for(int i = 0; i < 100; i++){
-    if(x + i > 100 || y + i > 100)break;
+  for(int i = 0; i < 200; i++){
     if((x + i) == (y + i) * z){
       flag = true;
       break;
