@@ -2,7 +2,9 @@
 using namespace std;
 
 void A(){
-  
+  int a,b;
+  cin >> a >> b;
+  cout << a * 12 + b << endl;
 }
 
 int main(){
