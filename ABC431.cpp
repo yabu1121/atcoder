@@ -9,6 +9,12 @@ void A(){
   else cout << 0 << endl;
 }
 
+
+
+void B(){
+  
+}
+
 int main(){
   A();
   return 0;

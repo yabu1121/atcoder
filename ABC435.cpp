@@ -12,6 +12,13 @@ void A(){
   cout << sigma(n) << endl;
 }
 
+
+
+void B(){
+  
+}
+
+
 int main(){
   A();
   return 0;

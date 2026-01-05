@@ -16,6 +16,13 @@ void A(){
   cout << result << endl;
 }
 
+
+
+void B(){
+  
+}
+
+
 int main(){
   A();
   return 0;

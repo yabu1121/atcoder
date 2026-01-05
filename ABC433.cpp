@@ -16,6 +16,13 @@ void A(){
   else cout << "No" << endl;
 }
 
+
+
+void B(){
+  
+}
+
+
 int main(){
   A();
   return 0;

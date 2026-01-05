@@ -34,6 +34,11 @@ void A(){
   cout << maxint << center << minint << endl;
 }
 
+
+void B(){
+  
+}
+
 int main(){
   A();
   return 0;

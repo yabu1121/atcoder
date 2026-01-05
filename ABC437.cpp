@@ -7,6 +7,13 @@ void A(){
   cout << a * 12 + b << endl;
 }
 
+
+
+void B(){
+  
+}
+
+
 int main(){
   A();
   return 0;
