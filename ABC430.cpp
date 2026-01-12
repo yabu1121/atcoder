@@ -11,7 +11,7 @@ void A(){
 }
 
 void B(){
-  
+
 }
 
 int main(){
